@@ -10,7 +10,11 @@ public class Main {
     }
 
     private static String calculateTextDifficulty(String input) {
-        return input.length() > 100 ? "HARD" : "EASY";
+        String[] sentences = input.split("[.!?]");
+        String[] words = input.split("[\\S]+");
+        float avgSentenceLen = (float) words.length / sentences.length;
+
+        return avgSentenceLen > 10.0 ? "HARD" : "EASY";
     }
 
 }
