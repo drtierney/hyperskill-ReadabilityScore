@@ -2,7 +2,7 @@
 Developing a program that can identify the difficulty of a piece of text and identify the suitable reading age.  
 https://hyperskill.org/projects/39
 
-<img src="https://github.com/drtierney/hyperskill-ReadabilityScore/blob/master/ReadabilityScore.gif" width="800" height="500" />
+<img src="https://github.com/drtierney/hyperskill-ReadabilityScore/blob/main/ReadabilityScore.gif" width="800" height="500" />
 
 ## Syntax
 | Arg | Valuelist | Comment
